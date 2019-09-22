@@ -14,8 +14,7 @@ var rootCmd = &cobra.Command{
 	Short: "",
 	Long: "",
 	Run: func(cmd *cobra.Command, args []string) {
-		// Do Stuff Here
-		fmt.Println("AAAAAAAAAAAAAAAAAAA")
+
 	},
 }
 
@@ -24,7 +23,7 @@ var (
 )
 
 func init() {
-	viper.SetConfigName("config")
+	viper.SetConfigName("dbconfig")
 	viper.SetConfigType("yaml")
 	viper.AddConfigPath(".")
 
