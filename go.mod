@@ -1,4 +1,4 @@
-module github.com/touyu/trigger
+module trigger
 
 go 1.12
 

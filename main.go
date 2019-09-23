@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/touyu/trigger/cmd"
+	"trigger/cmd"
 )
 
 func main() {

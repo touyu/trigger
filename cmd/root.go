@@ -13,6 +13,7 @@ var rootCmd = &cobra.Command{
 	Use:   "trigger",
 	Short: "",
 	Long: "",
+	Args: cobra.MinimumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 
 	},

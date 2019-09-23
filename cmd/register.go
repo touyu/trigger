@@ -16,8 +16,8 @@ func init() {
 
 var registerCmd = &cobra.Command{
 	Use:   "register",
-	Short: "Register trigger to Database",
-	Long:  "Register trigger to Database",
+	Short: "Register trigger to database",
+	Long:  "Register trigger to database",
 	Run:   register,
 }
 
