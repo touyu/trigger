@@ -1,2 +1,7 @@
 *.yaml
 .idea
+build
+package
+.DS_Store
+main
+trigger
