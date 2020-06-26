@@ -87,7 +87,6 @@ func mysqlBuildDSN(dbName string) string {
 	c.DBName = dbName
 	c.Net = "tcp"
 	c.Addr = fmt.Sprintf("%s:%d", host, port)
-	log.Println(c.FormatDSN())
 	return c.FormatDSN()
 }
 
